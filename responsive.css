@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column;
     gap: 49px;
+    padding: 0 68.5px;
   }
   .foot1 {
     display: flex;
@@ -83,7 +84,6 @@
   .info-slide5 {
     width: 100%;
     max-width: 1024px;
-    top: 286px;
     align-items: center;
     top: 476px;
   }
@@ -91,17 +91,16 @@
     display: flex;
     flex-direction: column;
     gap: 49px;
-    max-width: 747px;
+    max-width: 743px;
     width: 100%;
-    margin: 0 68.5px;
   }
   .body-con {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 680px) {
   body {
-    max-width: 700px;
+    max-width: 680px;
   }
   .container {
     padding: 32px 35px 0px 35px;
@@ -222,6 +221,7 @@
     width: 100%;
     top: 286px;
     align-items: center;
+    padding: 0 32px;
   }
   .body-info {
     display: flex;
@@ -230,7 +230,6 @@
     height: 701px;
     max-width: 290px;
     width: 100%;
-    margin: 0 35px;
   }
   .row1-info {
     display: flex;
