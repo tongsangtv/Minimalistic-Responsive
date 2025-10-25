@@ -307,6 +307,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 .bg-slide5 {
@@ -320,6 +321,8 @@ body {
   background: url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
   background-position: center;
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
 }
 .box-slide5 {
   display: flex;
@@ -390,8 +393,8 @@ body {
 .info-slide5 {
   position: absolute;
   top: 476px;
-  background-color: #fce2d7;
-  max-width: 1165px;
+
+  max-width: 1302px;
   width: 100%;
   height: 356px;
   border-radius: 12px;
@@ -399,6 +402,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.body-info {
+  display: flex;
+  max-width: 1165px;
+  background-color: #fce2d7;
+  width: 100%;
+  height: 356px;
+  border-radius: 12px;
+  gap: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 68.5px;
 }
 .box1-slide5 {
   display: flex;
