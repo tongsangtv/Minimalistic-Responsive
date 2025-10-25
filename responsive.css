@@ -74,11 +74,17 @@
   .footer {
     height: 305px;
   }
+  .ic-logo {
+    background-color: #d0d0d0;
+  }
 }
 
 @media (max-width: 430.5px) {
   body {
     max-width: 430px;
+  }
+  .container {
+    padding: 32px 35px 0px 35px;
   }
   .header {
     max-width: 360px;
@@ -265,5 +271,25 @@
   }
   .bg-slide5 {
     background: url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 12.png);
+  }
+  .ic-logo {
+    background-color: #f4f4f4;
+  }
+  .slide2 .tit-slide2 {
+    display: none;
+  }
+  .tit-slide5 {
+    display: none;
+  }
+  .tit2-slide2 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+  .tit2-slide5 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
   }
 }
