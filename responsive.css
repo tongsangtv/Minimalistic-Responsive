@@ -5,6 +5,9 @@
   .header {
     max-width: 885px;
   }
+  .body-slide5 {
+    max-width: 1024px;
+  }
   .content {
     max-width: 884px;
     margin-top: 58px;
@@ -41,7 +44,7 @@
     color: #2a2a2a;
   }
   .info-slide5 {
-    max-width: 743px;
+    max-width: 884px;
     height: 397px;
     display: flex;
     flex-direction: column;
@@ -77,11 +80,28 @@
   .ic-logo {
     background-color: #d0d0d0;
   }
+  .info-slide5 {
+    width: 100%;
+    max-width: 1024px;
+    top: 286px;
+    align-items: center;
+    top: 476px;
+  }
+  .body-info {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    max-width: 747px;
+    width: 100%;
+    margin: 0 68.5px;
+  }
+  .body-con {
+  }
 }
 
-@media (max-width: 430.5px) {
+@media (max-width: 700px) {
   body {
-    max-width: 430px;
+    max-width: 700px;
   }
   .container {
     padding: 32px 35px 0px 35px;
@@ -198,10 +218,19 @@
   }
   .info-slide5 {
     height: 701px;
-    max-width: 298px;
+    max-width: 360px;
     width: 100%;
     top: 286px;
     align-items: center;
+  }
+  .body-info {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    height: 701px;
+    max-width: 290px;
+    width: 100%;
+    margin: 0 35px;
   }
   .row1-info {
     display: flex;
@@ -271,6 +300,8 @@
   }
   .bg-slide5 {
     background: url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 12.png);
+    position: absolute;
+    top: 0px;
   }
   .ic-logo {
     background-color: #f4f4f4;
