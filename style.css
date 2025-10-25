@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 .container {
   display: flex;
@@ -109,16 +110,20 @@ body {
   width: 100%;
 }
 .img1-slide1 {
-  width: 48.15384615%;
+  width: 626px;
   object-fit: cover;
   height: 391px;
   border-radius: 16px;
+  background: url(/img/jared-rice-xce530fBHrk-unsplash\ 1.png);
+  background-position: center;
 }
 .img2-slide1 {
-  width: 48.15384615%;
+  width: 626px;
   height: 390px;
   border-radius: 16px;
   object-fit: cover;
+  background: url(/img/katherine-hanlon-mod2s3-qFOc-unsplash\ 1.png);
+  background-position: center;
 }
 .slide2 {
   max-width: 1300px;
@@ -148,7 +153,6 @@ body {
   font-size: 50.52px;
   line-height: 62px;
   letter-spacing: 0px;
-  text-align: center;
 }
 .box-slide2 {
   display: flex;
@@ -193,6 +197,8 @@ body {
 }
 .body-slide3 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 53px;
   max-width: 1300px;
   width: 100%;
@@ -204,6 +210,8 @@ body {
   object-fit: cover;
   border-radius: 16px;
   position: relative;
+  background: url(/img/zoe-schaeffer-tbiV-yc903g-unsplash\ 1.png);
+  background-position: center;
 }
 .op-slide3 {
   position: absolute;
@@ -217,6 +225,7 @@ body {
 .right-slide3 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 50px;
   max-width: 623.5px;
   width: 100%;
@@ -300,6 +309,9 @@ body {
   border-radius: 12px;
   mix-blend-mode: Darken;
   object-fit: cover;
+  background: url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .box-slide5 {
   display: flex;
@@ -409,9 +421,8 @@ body {
 
   align-items: center;
   justify-content: space-between;
-  max-width: 1300px;
+  max-width: 1165px;
   width: 100%;
-  padding-left: 69px;
 }
 .logo-footer {
   width: 88px;
@@ -431,9 +442,8 @@ body {
 .foot2 {
   display: flex;
   justify-content: flex-start;
-  max-width: 1300px;
+  max-width: 1165px;
   width: 100%;
-  padding-left: 69px;
 }
 .boximg-foot {
   gap: 24px;
