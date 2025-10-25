@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 0 0px 0;
+  padding: 32px 70px 0px 70px;
 }
 .header {
   max-width: 1300px;
@@ -153,6 +153,14 @@ body {
   font-size: 50.52px;
   line-height: 62px;
   letter-spacing: 0px;
+}
+.tit2-slide2 {
+  color: #2b2b2b;
+  font-weight: 600;
+  font-size: 39.7px;
+  line-height: 53px;
+  letter-spacing: 0px;
+  display: none;
 }
 .box-slide2 {
   display: flex;
@@ -342,6 +350,15 @@ body {
   text-align: center;
   color: #fff;
 }
+.tit2-slide5 {
+  font-weight: 600;
+  font-size: 21.33px;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
 .p-slide5 {
   font-weight: 400;
   font-size: 16px;
@@ -411,6 +428,15 @@ body {
   display: flex;
   width: 100%;
   background-color: #285e67;
+  align-items: center;
+  justify-content: center;
+}
+.body-foot {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  max-width: 1302px;
+  padding: 0 68.5px;
   gap: 36px;
   justify-content: center;
   align-items: center;
@@ -418,7 +444,6 @@ body {
 }
 .foot1 {
   display: flex;
-
   align-items: center;
   justify-content: space-between;
   max-width: 1165px;
@@ -427,6 +452,23 @@ body {
 .logo-footer {
   width: 88px;
   height: 26px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ic-logo {
+  width: 26px;
+  height: 26px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+}
+.p-logo {
+  font-weight: 600;
+  font-size: 21.33px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #fff;
 }
 .box-foot1 {
   display: flex;
