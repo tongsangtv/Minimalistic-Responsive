@@ -1,9 +1,13 @@
 @media (max-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
   .header {
     max-width: 885px;
   }
   .content {
     max-width: 884px;
+    margin-top: 58px;
   }
   .p-head-con {
     padding: 0 110px 0 110px;
@@ -19,6 +23,7 @@
   }
   .tit-slide2 {
     color: #2a2a2a;
+    text-align: center;
   }
   .body-slide3 {
     gap: 25px;
@@ -72,6 +77,9 @@
 }
 
 @media (max-width: 430.5px) {
+  body {
+    max-width: 430px;
+  }
   .header {
     max-width: 360px;
     padding: 0;
@@ -110,8 +118,10 @@
     width: 100%;
   }
   .tit-slide2 {
-    font-size: 37.9px;
+    font-size: 39.7px;
     line-height: 53px;
+    color: #2b2b2b;
+    text-align: center;
   }
   .box-slide2 {
     display: flex;
@@ -144,6 +154,9 @@
   .right-slide3 {
     gap: 26px;
   }
+  .top-slide3 {
+    gap: 16px;
+  }
   .box-slide3 .p-slide3 {
     color: #285e67;
     text-align: left;
@@ -164,6 +177,7 @@
   .right-slide4 .tit-slide2 {
     font-size: 39.7px;
     line-height: 47px;
+    text-align: center;
     padding: 0 20px 0 20px;
   }
   .right-slide4 .box1-slide2 {
@@ -248,5 +262,8 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+  }
+  .bg-slide5 {
+    background: url(/img/tyler-lastovich-AVzByhROPbs-unsplash\ 12.png);
   }
 }
