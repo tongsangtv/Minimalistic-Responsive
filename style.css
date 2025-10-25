@@ -134,6 +134,7 @@ body {
 }
 .body-slide2 {
   width: 100%;
+  padding: 0 70px 0 112px;
   height: 446px;
   display: flex;
   gap: 196px;
@@ -558,3 +559,4 @@ body {
   display: flex;
   gap: 40px;
 }
+
