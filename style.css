@@ -134,7 +134,7 @@ body {
 }
 .body-slide2 {
   width: 100%;
-  padding: 0 70px 0 112px;
+  padding: 0 30px 0 30px;
   height: 446px;
   display: flex;
   gap: 196px;
@@ -279,6 +279,7 @@ body {
   gap: 87px;
   align-items: center;
   justify-content: center;
+  padding: 0 30px 0 30px;
 }
 .left-slide4 {
   max-width: 350px;
@@ -394,7 +395,6 @@ body {
 .info-slide5 {
   position: absolute;
   top: 476px;
-
   max-width: 1302px;
   width: 100%;
   height: 356px;
@@ -403,6 +403,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 68.5px;
 }
 .body-info {
   display: flex;
@@ -415,7 +416,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 68.5px;
 }
 .box1-slide5 {
   display: flex;
@@ -559,4 +559,3 @@ body {
   display: flex;
   gap: 40px;
 }
-
