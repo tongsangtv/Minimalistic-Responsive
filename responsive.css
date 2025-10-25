@@ -185,7 +185,7 @@
     width: 100%;
   }
   .right-slide4 .box1-slide2 .p-slide2 {
-    padding: 0 39px 0 39px;
+    max-width: 281px;
   }
   .bg-slide5 {
     height: 354px;
