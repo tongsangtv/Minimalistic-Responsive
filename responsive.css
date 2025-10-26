@@ -15,6 +15,9 @@
   .p-head-con {
     padding: 0 110px 0 110px;
   }
+  .boximg-slide1 {
+    gap: 28px;
+  }
   .p-slide2 {
     text-align: center;
   }
@@ -39,6 +42,15 @@
   }
   .left-slide4 {
     display: none;
+  }
+  .right-slide3 {
+    gap: 52.67px;
+  }
+  .top-slide3 {
+    gap: 16px;
+  }
+  .right-slide4 {
+    gap: 99px;
   }
   .right-slide4 .p-slide2 {
     color: #2a2a2a;
@@ -77,6 +89,7 @@
   }
   .footer {
     height: 305px;
+    margin-top: 107.5px;
   }
   .ic-logo {
     background-color: #d0d0d0;
@@ -209,6 +222,12 @@
     max-width: 360px;
     width: 100%;
   }
+  .right-slide4 {
+    gap: 35px;
+  }
+  .right-slide4 .box-slide2 {
+    gap: 41px;
+  }
   .right-slide4 .box1-slide2 .p-slide2 {
     max-width: 281px;
   }
@@ -246,12 +265,13 @@
     line-height: 31px;
   }
   .box-slide5 {
-    max-width: 236px;
+    max-width: 300px;
     height: 253px;
     gap: 13px;
     align-items: center;
     justify-content: center;
     top: 34px;
+    padding: 0 32px;
   }
   .p-slide5 {
     display: none;
@@ -275,7 +295,7 @@
     gap: 18px;
   }
   .footer {
-    margin-top: 235px;
+    margin-top: 215px;
     height: 365px;
   }
   .foot1 {
