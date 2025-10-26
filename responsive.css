@@ -342,4 +342,7 @@
     width: 100%;
     max-width: 200px;
   }
+  .body-info {
+    padding: 0 20px;
+  }
 }
